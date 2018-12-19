@@ -56,6 +56,7 @@ These instructions describe the steps needed to replicate the results in the man
   - Step 1: Open Weka on your machine, select “Explorer” mode. 
   - Step 2: On the “Preprocess” tab: <br/>
   --> Click “Open file” and select the Weka input file that you want to implement classification with. For example: if you want to implement a classifier with all features, select the “AllWords_weka_input.arff” Weka input file as shown in the screenshot below. <br/>
+  ![1](https://user-images.githubusercontent.com/34040989/50197129-6aa17300-030b-11e9-9180-1f0baa518fa3.png) <br/>
   --> Click “All” to choose all of the words and use them as features to train the classifier as shown in the screenshot below. <br/>
   - Step 3: On the “Classify” tab: <br/>
   --> Click “Choose” to select the algorithm that you want to run. For example: if you want to run a classifier using “Random Forest” algorithm, select RandomForest as shown in the screenshot below: <br/>
