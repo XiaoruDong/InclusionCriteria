@@ -58,16 +58,21 @@ These instructions describe the steps needed to replicate the results in the man
   --> Click “Open file” and select the Weka input file that you want to implement classification with. For example: if you want to implement a classifier with all features, select the “AllWords_weka_input.arff” Weka input file as shown in the screenshot below. <br/>
   ![1](https://user-images.githubusercontent.com/34040989/50197129-6aa17300-030b-11e9-9180-1f0baa518fa3.png) <br/>
   --> Click “All” to choose all of the words and use them as features to train the classifier as shown in the screenshot below. <br/>
+  ![2](https://user-images.githubusercontent.com/34040989/50197245-e00d4380-030b-11e9-9bb6-1f9fa53a6d02.png) <br/>
   - Step 3: On the “Classify” tab: <br/>
   --> Click “Choose” to select the algorithm that you want to run. For example: if you want to run a classifier using “Random Forest” algorithm, select RandomForest as shown in the screenshot below: <br/>
+  ![3](https://user-images.githubusercontent.com/34040989/50197249-e3083400-030b-11e9-844d-c7e4254a5a64.png) <br/>
   --> Click “Percentage split” in the “Test options” and put 90% (this means we want to get 90% of our data set for training, 10% for testing). <br/>
   --> Click “Start” to run the classifier: <br/>
+  ![4](https://user-images.githubusercontent.com/34040989/50197252-e56a8e00-030b-11e9-8f5f-cdf8304ab4ea.png) <br/>
   - Step 4: Get the classifier results. Three measurements were reported in our manuscript: Precision, Recall and F-Measure as shown in the screenshot below. <br/>
+  ![5](https://user-images.githubusercontent.com/34040989/50197255-e7cce800-030b-11e9-9fb0-8a062e72e822.png) <br/>
 - **Notes** 
   - For each Weka input file that we generated from the Python program section and each algorithm (Random Forest, Naïve Bayes, J48), we built one classifier. Therefore, in total, we implemented 9 classifiers as reported in detail in the manuscript. 
   - We also used Weka to run Information Gain feature selection. To do so: <br/>
   --> On the “Select attributes” tab: <br/>
   Click “Choose” and select “InfoGainAttributeEval” as shown in the screenshot below. <br/>
+  ![6](https://user-images.githubusercontent.com/34040989/50197256-e8fe1500-030b-11e9-84e8-2b842452cc2d.png) <br/>
   Click “Start” to run the Information Gain feature selection. <br/>
   --> Weka generated a list of informative words selected by Information Gain feature selection strategy. We then used the python script (above) to generate the data file “WordsSelectedByInformationGain.csv” and the Weka input file “WordsSelectedByInformationGain_weka_input.arff” accordingly. <br/>
 
