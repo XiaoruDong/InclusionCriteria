@@ -63,6 +63,7 @@ These instructions describe the steps needed to replicate the results in the man
   --> Click “Choose” to select the algorithm that you want to run. For example: if you want to run a classifier using “Random Forest” algorithm, select RandomForest as shown in the screenshot below: <br/>
   ![3](https://user-images.githubusercontent.com/34040989/50197249-e3083400-030b-11e9-844d-c7e4254a5a64.png) <br/>
   --> Click “Percentage split” in the “Test options” and put 90% (this means we want to get 90% of our data set for training, 10% for testing). <br/>
+  --> Click “More Options...” and set the seed to 3. <br/>
   --> Click “Start” to run the classifier: <br/>
   ![4](https://user-images.githubusercontent.com/34040989/50197252-e56a8e00-030b-11e9-8f5f-cdf8304ab4ea.png) <br/>
   - Step 4: Get the classifier results. Three measurements were reported in our manuscript: Precision, Recall and F-Measure as shown in the screenshot below. <br/>
