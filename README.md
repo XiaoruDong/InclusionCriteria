@@ -71,6 +71,7 @@ These instructions describe the steps needed to replicate the results in the man
 - **Notes** 
   - For each Weka input file that we generated from the Python program section and each algorithm (Random Forest, Naïve Bayes, J48), we built one classifier. Therefore, in total, we implemented 9 classifiers as reported in detail in the manuscript. 
   - We also used Weka to run Information Gain feature selection. To do so: <br/>
+  -->  On the “Preprocess” tab: Click “Open file” and select the Weka input file AllWord_Noredundant_weka_input.arff <br/>
   --> On the “Select attributes” tab: <br/>
   Click “Choose” and select “InfoGainAttributeEval” as shown in the screenshot below. <br/>
   ![6](https://user-images.githubusercontent.com/34040989/50197256-e8fe1500-030b-11e9-84e8-2b842452cc2d.png) <br/>
