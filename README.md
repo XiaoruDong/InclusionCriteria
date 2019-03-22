@@ -1,6 +1,6 @@
 # InclusionCriteria
-Instruction Creator: Xiaoru Dong, Linh Hoang <br/>
-Date preparation: 12-14-2018 <br/>
+Instructions Creators: Xiaoru Dong, Linh Hoang <br/>
+Preparation date: 2018-12-14 <br/>
 Manuscript working title: Machine classification of inclusion criteria from Cochrane systematic reviews <br/>
 Manuscript authors: Xiaoru Dong, Jingyi Xie, Linh Hoang, and Jodi Schneider <br/>
 
