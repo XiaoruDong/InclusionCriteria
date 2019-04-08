@@ -24,7 +24,7 @@ These instructions describe the steps needed to replicate the results in the man
 - Please follow these steps in order to run the Python script:
   - Step 1: Download the source code from the GitHub site: https://github.com/XiaoruDong/InclusionCriteria/blob/master/code_classification_fall2018.ipynb 
 
-  - Step 2: Download the input file “Inclusion_Criteria_Annotation.csv” (one of the study’s data files), which is available at: https://doi.org/10.13012/B2IDB-5958960_V1  . Note where you store the file.
+  - Step 2: Download the input file “Inclusion_Criteria_Annotation.csv” (one of the study’s data files), which is available at: https://doi.org/10.13012/B2IDB-5958960_V2  . Note where you store the file.
 
   - Step 3: Open the source code in Jupyter Notebook. 
 
