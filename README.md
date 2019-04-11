@@ -56,6 +56,15 @@ These instructions describe the steps needed to replicate the results in the man
   
  ### Python script to generate features by the information gain feature selection approach:
 
+  - Step 1: Download the script: https://github.com/infoqualitylab/InclusionCriteria/blob/master/manual_analysis_feature_selection.ipynb
+
+  - Step 2: Download the input file “WordsSelectedByManualAnalysis.csv” (one of the study’s data files), which is available at: https://doi.org/10.13012/B2IDB-8659314_V1. Note where you store the file.
+
+  - Step 3: Open the script in Jupyter Notebook. Change the “path” variable in the script to the path of your own folder where you stored the input file. 
+
+  - Step 4: Run the script to get one output file: "WordSelectedbyManualAnalysis_weka_input.arff"
+  
+  - Step 5: Use the "WordSelectedbyManualAnalysis_weka_input.arff" file as input in order to run classification model in Weka (for how to run classification model in Weka, please read the Weka section below)
 
 
 ## 2. Weka program:
