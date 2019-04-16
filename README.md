@@ -71,7 +71,7 @@ These instructions describe the steps needed to replicate the results in the man
 
 - Please make sure that you have Weka on your machine in order to implement the classifiers: https://www.cs.waikato.ac.nz/ml/weka/downloading.html 
 
-- Steps to run Weka:
+### Run classification on Weka:
   - Step 1: Open Weka on your machine, select “Explorer” mode. 
   - Step 2: On the “Preprocess” tab: <br/>
   --> Click “Open file” and select the Weka input file that you want to implement classification with. For example: if you want to implement a classifier with all features, select the “AllWords_weka_input.arff” Weka input file as shown in the screenshot below. <br/>
@@ -87,8 +87,8 @@ These instructions describe the steps needed to replicate the results in the man
   ![4](https://user-images.githubusercontent.com/34040989/50197252-e56a8e00-030b-11e9-8f5f-cdf8304ab4ea.png) <br/>
   - Step 4: Get the classifier results. Three measurements were reported in our manuscript: Precision, Recall and F-Measure as shown in the screenshot below. <br/>
   ![5](https://user-images.githubusercontent.com/34040989/50197255-e7cce800-030b-11e9-9fb0-8a062e72e822.png) <br/>
-- **Notes** 
-  - For each Weka input file that we generated from the Python program section and each algorithm (Random Forest, Naïve Bayes, J48), we built one classifier. Therefore, in total, we implemented 9 classifiers as reported in detail in the manuscript. 
+
+### Run information gain on Weka:
   - We also used Weka to run Information Gain feature selection. To do so: <br/>
   -->  On the “Preprocess” tab: Click “Open file” and select the Weka input file AllWord_Noredundant_weka_input.arff <br/>
   --> On the “Select attributes” tab: <br/>
