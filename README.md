@@ -71,7 +71,7 @@ These instructions describe the steps needed to replicate the results in the man
 
 - Please make sure that you have Weka on your machine in order to implement the classifiers: https://www.cs.waikato.ac.nz/ml/weka/downloading.html 
 
-### Run classification on Weka:
+### Run classification in Weka:
   - Step 1: Open Weka on your machine, select “Explorer” mode. 
   - Step 2: On the “Preprocess” tab: <br/>
   --> Click “Open file” and select the Weka input file that you want to implement classification with. For example: if you want to implement a classifier with all features, select the “AllWords_weka_input.arff” Weka input file as shown in the screenshot below. <br/>
@@ -79,7 +79,7 @@ These instructions describe the steps needed to replicate the results in the man
   --> Click “All” to choose all of the words and use them as features to train the classifier as shown in the screenshot below. <br/>
   ![2](https://user-images.githubusercontent.com/34040989/50197245-e00d4380-030b-11e9-9bb6-1f9fa53a6d02.png) <br/>
   - Step 3: On the “Classify” tab: <br/>
-  --> Click “Choose” to select the algorithm that you want to run. For example: if you want to run a classifier using “Random Forest” algorithm, select RandomForest as shown in the screenshot below: <br/>
+  --> Click “Choose” to select the algorithm that you want to run. NOTE: We used three algorithms: Random Forest, J48 and Naïve Bayes. For example: if you want to run a classifier using “Random Forest” algorithm, select RandomForest as shown in the screenshot below: <br/>
   ![3](https://user-images.githubusercontent.com/34040989/50197249-e3083400-030b-11e9-844d-c7e4254a5a64.png) <br/>
   --> Click “Percentage split” in the “Test options” and put 90% (this means we want to get 90% of our data set for training, 10% for testing). <br/>
   --> Click “More Options...” and set the seed to 3. <br/>
@@ -88,7 +88,7 @@ These instructions describe the steps needed to replicate the results in the man
   - Step 4: Get the classifier results. Three measurements were reported in our manuscript: Precision, Recall and F-Measure as shown in the screenshot below. <br/>
   ![5](https://user-images.githubusercontent.com/34040989/50197255-e7cce800-030b-11e9-9fb0-8a062e72e822.png) <br/>
 
-### Run information gain on Weka:
+### Run information gain o Weka:
   - We also used Weka to run Information Gain feature selection. To do so: <br/>
   -->  On the “Preprocess” tab: Click “Open file” and select the Weka input file AllWord_Noredundant_weka_input.arff <br/>
   --> On the “Select attributes” tab: <br/>
