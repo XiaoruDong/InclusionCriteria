@@ -31,7 +31,7 @@ These instructions describe the steps needed to replicate the results in the man
 
   - Step 4: Run the script to get two output files: "AllWords.csv" and "AllWords_weka_input.arff"
   
-  - Step 5: Use the "AllWords_weka_input.arff" file as input in order to run classification model in Weka (for how to run classification model in Weka, please read the Weka section below)
+  - Step 5: Use the "AllWords_weka_input.arff" file as the input in order to run the classification model in Weka (for how to run classification model in Weka, please read the Weka section below)
   
 
  ### Python script to generate features by the information gain feature selection approach:
